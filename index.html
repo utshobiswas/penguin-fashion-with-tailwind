@@ -30,7 +30,7 @@
 
         </nav>
         <!-- banner start -->
-        <div class=" lg:flex items-center justify-between max-w-6xl mx-auto">
+        <div class="p-4 lg:p-0 md:flex lg:flex items-center justify-between max-w-6xl mx-auto">
             <div>
                 <h1 class="text-7xl	uppercase font-bebas-neue">
                     <span class="text-[#FABE4C]">Be the Penguins</span>
@@ -52,13 +52,13 @@
             </div>
         </div>
     </header>
-    <main class="max-w-6xl mx-auto">
+    <main class="max-w-6xl mx-auto p-4 lg:p-0">
         <!-- woman jacket section -->
         <section class="my-12 space-y-10">
-            <h3 class="text-5xl uppercase text-[#363958] font-bebas-neue">Woman Jacket</h3>
+            <h3 class="text-5xl uppercase text-[#363958] font-bebas-neue text-center lg:text-left">Woman Jacket</h3>
 
             <!-- jacket card container -->
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-7">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
                 <!-- jacket card 1 -->
                 <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl">
                     <img class="p-5 rounded-3xl bg-[#F1F1F1]" src="./images/jacket-1.png" alt="">
@@ -102,15 +102,15 @@
                 </div>
             </div>
 
-            
+
         </section>
 
         <!-- man jacket section -->
         <section class="my-12 space-y-10">
-            <h3 class="text-5xl uppercase text-[#363958] font-bebas-neue">Man Jacket</h3>
+            <h3 class="text-5xl uppercase text-[#363958] font-bebas-neue text-center lg:text-left ">Man Jacket</h3>
 
             <!-- jacket card container -->
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-7 drop-shadow-2xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 drop-shadow-2xl">
                 <!-- jacket card 4 -->
                 <div class="p-5 space-y-4 rounded-3xl">
                     <img class="p-5 rounded-3xl bg-[#F1F1F1]" src="./images/jacket-4.png" alt="">
@@ -154,11 +154,51 @@
                 </div>
             </div>
 
-            
+
         </section>
     </main>
     <footer>
+         <!-- card section starts-->
+        <section class="p-4 lg:p-0 max-w-6xl mx-auto md:flex md:flex-col lg:flex lg:flex-row items-center justify-between">
+            <!-- card container starts-->
+            <div class="text-[#363958] space-y-4">
+                <!-- card 1 -->
+                <div class="p-5 text-center flex flex-col lg:flex-row lg:text-left items-center justify-center drop-shadow-xl rounded-3xl border max-w-md">
+                    <img class="max-w-20 max-h-20 text-center" src="./icons/house.png" alt="">
+                    <div>
+                        <h4 class="text-2xl font-bold">Find the Perfect Fit</h4>
+                        <p>Everybody is different, which is why we
+                            offer styles for every body.
+                        </p>
+                    </div>
+                </div>
 
+                <!-- card 2 -->
+                <div class="p-5 text-center flex flex-col lg:flex-row lg:text-left items-center justify-center drop-shadow-xl rounded-3xl border max-w-md">
+                    <img class="max-w-20 max-h-20 text-center" src="./icons/box.png" alt="">
+                    <div>
+                        <h4 class="text-2xl font-bold">Free Exchanges</h4>
+                        <p>One of the many reasons you can shop
+                            with peace of mind.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- card 3 -->
+                <div class="p-5 text-center flex flex-col lg:flex-row lg:text-left items-center justify-center drop-shadow-xl rounded-3xl border max-w-md">
+                    <img class="max-w-20 max-h-20 text-center" src="./icons/question.png" alt="">
+                    <div>
+                        <h4 class="text-2xl font-bold">Contact Our Seller</h4>
+                        <p>They are here to help you. That's quite 
+                            literally what we pay them for.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img class="lg:max-w-xl my-5" src="./images/shopping.png" alt="">
+            </div>
+        </section>
     </footer>
 </body>
 
